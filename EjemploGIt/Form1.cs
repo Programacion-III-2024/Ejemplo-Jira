@@ -17,6 +17,11 @@ namespace EjemploGIt
             InitializeComponent();
         }
 
+        private string Hola(string nombre)
+        {
+            return nombre;
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             string nombre = "Jacinto";
