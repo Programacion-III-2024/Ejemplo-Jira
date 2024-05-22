@@ -19,7 +19,8 @@ namespace EjemploGIt
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Holi");
+            string nombre = "Jacinto";
+            MessageBox.Show(nombre);
         }
     }
 }
