@@ -20,7 +20,9 @@ namespace EjemploGIt
         private void Form1_Load(object sender, EventArgs e)
         {
             string nombre = "Jacinto";
-            MessageBox.Show(nombre);
+            if(nombre.Length > 0)
+                MessageBox.Show(nombre);
+
         }
     }
 }
