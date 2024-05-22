@@ -20,6 +20,8 @@ namespace EjemploGIt
         private void Form1_Load(object sender, EventArgs e)
         {
             int a = 10;
+
+
             string nombre = "Jacinto";
             MessageBox.Show(nombre);
         }
