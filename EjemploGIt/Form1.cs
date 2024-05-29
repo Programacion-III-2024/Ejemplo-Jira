@@ -29,6 +29,7 @@ namespace EjemploGIt
 	           nombre = InputBox.Text();
 	   
             MessageBox.Show(nombre);
+	    	
 
         }
     }
