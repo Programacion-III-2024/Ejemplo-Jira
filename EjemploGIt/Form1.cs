@@ -24,9 +24,11 @@ namespace EjemploGIt
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string nombre = "Jacinto";
-            if(nombre.Length > 1)
-                MessageBox.Show(nombre);
+	    string nombre;
+	    while(nombre.Length > 0)
+	           nombre = InputBox.Text();
+	   
+            MessageBox.Show(nombre);
 
         }
     }
