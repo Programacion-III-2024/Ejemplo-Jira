@@ -24,9 +24,12 @@ namespace EjemploGIt
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string nombre = "Jacinto";
-            if(nombre.Length > 1)
-                MessageBox.Show(nombre);
+            string nombre = Textbox1.Text;
+            if(nombre.Length > 1){
+                MessageBox.Show("Pone un nombre posta, ortiva");
+		Application.Exit();
+	    }
+	    	
 
         }
     }
