@@ -8,5 +8,6 @@ namespace EjemploGIt
 {
     class Class1
     {
+        public int Nombre;
     }
 }
